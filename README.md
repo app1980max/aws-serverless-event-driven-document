@@ -6,11 +6,11 @@ In this project, we build a serverless, event-driven document translation pipeli
 
 🎯 Architecture Overview
 ```
-✅ API Gateway → Lambda (validation)
-✅ SQS for buffering
-✅ Lambda workers for async processing
-✅ DynamoDB for storage
-✅ SNS for notifications
+✅ S3 input bucket (user uploads)
+✅ Lambda Function (process + translate)
+✅ S3 output bucket (results)
+✅ IAM Role + Permissions
+✅ CloudWatch Logs
 ```
 
 
