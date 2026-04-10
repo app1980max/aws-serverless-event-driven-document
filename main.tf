@@ -1,7 +1,4 @@
 
-provider "aws" {
-  region = "us-east-1"
-}
 # --- 1. S3 BUCKETS ---
 resource "aws_s3_bucket" "input" {
   bucket_prefix = "translate-input-"
