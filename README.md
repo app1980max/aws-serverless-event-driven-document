@@ -17,9 +17,7 @@ In this project, we build a serverless, event-driven document translation pipeli
 🧱 Package Lambdas
 ```
 cd functions
-zip createOrder.zip createOrder.js
-zip processOrder.zip processOrder.js
-zip notifyUser.zip notifyUser.js
+zip lambda_function.zip lambda_function.py
 ```
 
 
